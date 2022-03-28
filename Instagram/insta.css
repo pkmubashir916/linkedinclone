@@ -1,0 +1,424 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}   
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:#ffffff;
+    border-bottom: 1px solid rgb(187, 182, 182);
+    padding:0 19%;
+    position: fixed;
+    z-index: 1;
+}
+.mainnavcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.navparts{
+    width: 33.3%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.logopart{
+    width:50%;
+    height: 100%;
+    padding: 10px 0;
+}
+.logopart img{
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+.blankpart{
+    width:50%;
+    height: 100%;
+}
+.searchicon{
+    width: 15%;
+    height: 60%;
+    background-color: rgb(236, 235, 234);
+    text-align: center;
+    padding-top:10px;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+}
+.searchicon i{
+    opacity: 0.6;
+}
+.searchtextfield{
+    width:70% ;
+    height: 60%;
+    background-color: rgb(236, 235, 234);
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px;
+}
+.searchtextfield input[type=text]{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px;
+    border:none;
+    padding-top:3px;
+}
+.iconcontainers{
+    width:16.6%;
+    height: 60%;
+    padding-top: 5px;
+    text-align: right;
+   
+}
+.iconcontainers img{
+    width:25px;
+    height:25px;
+}
+.profilesmall{
+    border-radius: 50px;
+}
+
+/* navigation css end here */
+.mainbodycontainer{
+    width: 100%;
+    height: auto;
+    background-color:rgb(245, 245, 245) ;
+    padding: 0 19%;
+}
+.sectioncontainer{
+    width: 100%;
+    height: 800px;
+    padding-top:85px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sectionleft{
+    width: 62%;
+    height: 100%;
+}
+.sectionlefttop{
+width: 100%;
+height: 120px;
+background-color: #ffffff;
+border: 1px solid rgb(221, 218, 218);
+border-radius: 5px;
+padding-top: 10px;
+padding-left: 20px;
+display: flex;
+justify-content: space-between;
+}
+.storyround{
+    width: 11%;
+    height:83%;
+    margin-top: 10px;
+}
+.story_photoarea{
+    width: 100%;
+    height: 70%;
+    background-color:#ffffff;
+    border: 3px solid rgb(211, 82, 104);
+    border-radius: 50px;
+}
+.story_photoarea img{
+    width: 98%;
+    height: 98%;
+    border-radius: 50px;
+}
+.Story_name_area{
+    width: 100%;
+    height: 25%;
+    font-size: 12px;
+    opacity: 0.9;
+}
+.Story_name_area p{
+    text-align: left;
+    margin-top: 8px;
+}
+
+
+
+
+.sectionleftbottom{
+    width: 100%;
+    height: auto;
+    background-color:#ffffff;
+    margin-top: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(221, 218, 218);
+    
+}
+
+.sectionright{
+    /* width: 38%; */
+    width:24%;
+    height: 500px;
+    background:transparent;
+    padding: 0px;
+    position: fixed;
+    margin-left: 38rem;
+}
+.photo_name_3dots{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 15px;
+}
+.poster_profile_part{
+    width:10%;
+    height:80%;
+}
+.poster_details_part{
+    width: 80%;
+    height: 80%;
+    font-size: 13px;
+}
+.posterimage img{
+    width: 60%;
+    height: 60%;
+    border-radius: 50px;
+    margin: 6px;
+
+}
+.tagname{
+    width:40%;
+    height:50%;
+}
+.tagname p{
+    text-align:left;
+    padding-top: 8px;
+}
+.tagname2{
+    width:40%;
+    height:50%;
+    
+}
+.tagname2 p{
+    text-align: left;
+    font-size: 12px;
+}
+.dots img{
+    padding-top: 10px;
+    text-align: right;
+}
+.posted_photo_area{
+    width: 100%;
+    height: auto;
+}
+.posted_photo_area img{
+    width: 100%;
+    height: 100%;
+}
+.like_Comment_share{
+    width: 100%;
+    height:140px;
+    padding: 15px;
+}
+.iconsArea{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.iconposleft{
+    width: 7%;
+    height: 100%;
+    text-align: left;
+}
+.iconposright{
+    width: 7%;
+    height: 100%;
+    text-align: right;
+}
+
+.icnblankpart{
+    width: 72%;
+    height: 100%;
+    
+}
+.like_count_part{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+  
+}
+.like_down_container{
+    width: 100%;
+    height:40px;
+
+}
+.part1likedown{
+    width: 100%;
+    height:50%;
+    font-size: 14px;
+}
+.part2likedown{
+    width: 100%;
+    height:50%;
+    font-size: 12px;
+    
+}
+
+.Comment_area_container{
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(221, 218, 218);
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.smily_pos{
+    width: 8%;
+    height: 100%;
+    padding-top: 6px;
+}
+.comment_txt_fld{
+    width: 82%;
+    height: 100%;
+   
+}
+.comment_txt_fld input[type=text]{
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    border: none;
+}
+
+.post_button{
+    width: 10%;
+    height: 100%;
+    text-align: right;
+    padding-top: 6px;
+    color: rgb(10, 131, 131);
+
+}
+.photo_name_switch{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.imageframe{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    
+}
+.imageframe img{
+    width: 70%;
+    height: 70%;
+    border-radius:50px;
+    margin-top: 10px;
+}
+.name_user{
+    width:50%;
+    height: 100%;
+    padding-bottom: 10px;
+
+}
+.username{
+    width: 100%;
+    height: 40%;
+    
+}
+.username p{
+    margin-top:20px ;
+    font-size: 14px;
+}
+.actualname{
+    width: 100%;
+    height: 40%;
+    opacity: 0.7;
+}
+.actualname p{
+    margin-top:-10px;
+    font-size: 13px;
+}
+
+.switch_area{
+    width:25%;
+    height:100%;
+    
+}
+.switch_area p{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(10, 63, 112);
+    font-size: 12px;
+}
+.suggessions_see{
+    width: 100%;
+    height: 30px;
+   
+    display: flex;
+
+}
+.suggesion{
+    width: 75%;
+    height: 100%;
+    padding-left:10px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.see{
+    width: 25%;
+    height: 100%;
+    font-size: 13px;
+    margin-top: 3px;
+   
+    text-align: center;
+
+}
+.photo_names_follower{
+    width: 100%;
+    height: 50px;
+  
+    display: flex;
+}
+.photofrnd{
+    width: 15%;
+    height: 100%;
+  
+}
+.photofrnd img{
+    width:75%;
+    height: 80%;
+    border-radius: 50px;
+    margin: 8px;
+}
+.name_frnd{
+    width: 60%;
+    height: 100%;
+}
+.name_frnd p{
+    margin-left: 7px;
+    margin-top:15px;
+    opacity: 0.8;
+    font-size: 13px;
+}
+.followers p{
+    
+    margin-top: 13px;
+    margin-left: 26px;
+    font-size: 12px;
+    color: rgb(4, 37, 99);
+    font-weight: bold;
+    
+}
+.footer_container{
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+}
+.footer_container p a{
+    font-size: 11px;
+    font-weight: bold;
+    opacity: 0.8;
+}
